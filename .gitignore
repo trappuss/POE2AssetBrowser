@@ -1,0 +1,29 @@
+# Build output / deps
+build/
+dist/
+vcpkg_installed/
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+.publish.cfg.bak
+
+# The tool's portable data folder (settings, index cache, thumbnails, logs) — generated at runtime.
+data/
+
+# Logs and generated diagnostics
+build_log.txt
+build_errors.txt
+
+# Reference-parser scratch (the Python oracle's extracted corpus is large and disposable).
+tools/formats/__pycache__/
+tools/formats/*.raw
+tools/formats/corpus/
+
+# No game assets or keys, ever.
+*.dds
+*.smd
+*.fmt
+*.ast
+*.mat
