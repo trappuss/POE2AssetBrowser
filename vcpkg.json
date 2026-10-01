@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "poe2assetbrowser",
+  "version": "0.1.0",
+  "description": "Native C++/Qt6 Path of Exile 2 asset browser — reads the installed game's Bundles2 storage directly.",
+  "dependencies": [
+    {
+      "name": "qtbase",
+      "default-features": false,
+      "features": [
+        "widgets",
+        "opengl",
+        "gui",
+        "png",
+        "jpeg"
+      ]
+    }
+  ],
+  "builtin-baseline": "fdd4e6059c803f56bb5df86e285bf374d9d44407"
+}
